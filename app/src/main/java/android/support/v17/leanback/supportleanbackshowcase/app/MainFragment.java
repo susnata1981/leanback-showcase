@@ -22,6 +22,8 @@ import android.support.v17.leanback.supportleanbackshowcase.app.cards.CardExampl
 import android.support.v17.leanback.supportleanbackshowcase.app.details.DetailViewExampleActivity;
 import android.support.v17.leanback.supportleanbackshowcase.app.dialog.DialogExampleActivity;
 import android.support.v17.leanback.supportleanbackshowcase.app.grid.GridExampleActivity;
+import android.support.v17.leanback.supportleanbackshowcase.app.media.MusicExampleActivity;
+// import android.support.v17.leanback.supportleanbackshowcase.app.media.VideoExampleActivity;
 import android.support.v17.leanback.supportleanbackshowcase.app.media.VideoExampleActivity;
 import android.support.v17.leanback.supportleanbackshowcase.app.page.PageAndListRowActivity;
 import android.support.v17.leanback.supportleanbackshowcase.app.settings.SettingsExampleActivity;
@@ -127,6 +129,11 @@ public class MainFragment extends BrowseFragment {
                 case 4: {
                     intent = new Intent(getActivity().getBaseContext(),
                             VideoExampleActivity.class);
+                    break;
+                }
+                case 5: {
+                    intent = new Intent(getActivity().getBaseContext(),
+                            MusicExampleActivity.class);
                     break;
                 }
                 case 6: {
